@@ -1,4 +1,0 @@
-author: "dwinters99"
-delete-after: True
-changes:
-  - refactor: "low walls are now objects"
