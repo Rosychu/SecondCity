@@ -48,3 +48,6 @@
 2025-12-22:
   chazzyjazzy:
   - code_imp: removes duplicates from preferences adjectives list
+2025-12-23:
+  FalloutFalcon:
+  - bugfix: Lowwalls now spawn there windows again
