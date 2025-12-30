@@ -1,10 +1,9 @@
 /obj/structure/sign/flag
 	name = "blank flag"
 	desc = "The flag of nothing. It has nothing on it. Magnificient."
+	custom_materials = null
 	buildable_sign = FALSE
-	custom_materials = null
 	mouse_drag_pointer = MOUSE_ACTIVE_POINTER
-	custom_materials = null
 	var/item_flag = /obj/item/sign/flag
 
 /obj/structure/sign/flag/wrench_act(mob/living/user, obj/item/wrench/I)
@@ -31,6 +30,7 @@
 	desc = "The folded flag of nothing. It has nothing on it. Beautiful."
 	icon_state = "folded_coder"
 	icon = 'modular_darkpack/modules/flags/icons/flags.dmi'
+	custom_materials = null
 	sign_path = /obj/structure/sign/flag
 	is_editable = FALSE
 
